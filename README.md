@@ -2,6 +2,12 @@
 
 This repository contains my personal configuration files for Waybar, a highly customizable status bar for Wayland compositors like Sway and Hyprland. These configurations are designed to enhance productivity while maintaining a sleek and functional appearance.
 
+## Preview
+
+<p align="center">
+  <img src="assets/preview.png"/>
+</p>
+
 ## Features
 
 - **Audio Controls**: Integrated PulseAudio audio controls using `pavucontrol`.
