@@ -6,7 +6,7 @@ This repository contains my personal configuration files for Waybar, a highly cu
 
 - **Audio Controls**: Integrated PulseAudio audio controls using `pavucontrol`.
 - **Network Status**: Displays Wi-Fi and Ethernet status with easy access to `nmtui`.
-- **Bluethooth Controls**: Integrated blueman for bluetooth controls.
+- **Bluetooth Controls**: Integrated blueman for bluetooth controls.
 - **Bluelight Protection**: Module which uses hyprsunset to provide a warmer colour.
 - **Logout Menu**: Includes a logout menu using wlogout.
 - **Custom Modules**: Includes power management and workspace modes tailored for Hyprland.
