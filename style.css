@@ -56,7 +56,8 @@ window#waybar {
 #mode,
 #custom-power,
 #custom-menu,
-#bluetooth {
+#bluetooth,
+#custom-hyprsunset {
     padding: 0 10px;
 }
 #mode {

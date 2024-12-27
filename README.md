@@ -6,6 +6,9 @@ This repository contains my personal configuration files for Waybar, a highly cu
 
 - **Audio Controls**: Integrated PulseAudio audio controls using `pavucontrol`.
 - **Network Status**: Displays Wi-Fi and Ethernet status with easy access to `nmtui`.
+- **Bluethooth Controls**: Integrated blueman for bluetooth controls.
+- **Bluelight Protection**: Module which uses hyprsunset to provide a warmer colour.
+- **Logout Menu**: Includes a logout menu using wlogout.
 - **Custom Modules**: Includes power management and workspace modes tailored for Hyprland.
 - **Theming**: Personalized themes for a visually appealing setup.
 
@@ -29,8 +32,14 @@ To use these configuration files:
 Ensure the following dependencies are installed:
 
 - [Waybar](https://github.com/Alexays/Waybar)
-- [PulseAudio](https://pulseaudio.org/) and `wpctl` for audio control
+- [PulseAudio](https://pulseaudio.org/) and `pavucontrol` for audio control
 - [NetworkManager](https://wiki.archlinux.org/title/NetworkManager) and `nmtui` for network management
+- [wlogout](https://aur.archlinux.org/packages/wlogout) for logout menu
+- [hyprsunset](https://wiki.hyprland.org/Hypr-Ecosystem/hyprsunset/) for warmer colours
+- [blueman](https://wiki.archlinux.org/title/Blueman) for bluethooth manager
+- [Font Awesome](https://archlinux.org/packages/extra/any/ttf-font-awesome/) for fonts
+
+
 - Hyprland or Sway (or another Wayland compositor)
 
 ## Contributing

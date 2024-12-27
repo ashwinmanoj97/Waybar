@@ -1,7 +1,7 @@
 {
     "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "network", "bluetooth", "pulseaudio", "battery", "custom/power"],
+    "modules-right": ["tray", "network", "bluetooth", "custom/hyprsunset", "pulseaudio", "battery", "custom/power"],
 
     "hyprland/submap": {
         "format": "<span style=\"italic\">{}</span>"
@@ -40,7 +40,12 @@
     "format-charging": "{capacity}% ",
     "format-plugged": "{capacity}% ",
     "format-icons": ["", "", "", "", ""],
-},
+	},
+	"custom/hyprsunset": {
+		"format": "",
+		"on-click": "hyprsunset --temperature 3500",
+		"on-click-right": "killall hyprsunset"
+	},
 	"custom/power": {
 		"format": " ",
 		"on-click": "wlogout"
